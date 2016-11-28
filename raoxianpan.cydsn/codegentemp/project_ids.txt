@@ -1,0 +1,5 @@
+D:\pxc\robot-raoxianpan\raoxianpan.cydsn\raoxianpan.cyprj|4cf8c630-7d79-4b11-8819-5982f44ac166
+C:\Program Files (x86)\Cypress\PSoC Creator\3.3\PSoC Creator\psoc\content\default\CyAnnotationLibrary\CyAnnotationLibrary.cylib\CyAnnotationLibrary.cyprj|3c12b693-5bd8-46cd-a6e8-2e8cac58d4de
+C:\Program Files (x86)\Cypress\PSoC Creator\3.3\PSoC Creator\psoc\content\cycomponentlibraryupdates\CyComponentLibraryUpdates.cylib\CyComponentLibraryUpdates.cyprj|ec061014-bce7-4bd6-95db-afd3a099876c
+C:\Program Files (x86)\Cypress\PSoC Creator\3.3\PSoC Creator\psoc\content\cycomponentlibrary\CyComponentLibrary.cylib\CyComponentLibrary.cyprj|2ac53941-124b-41c1-804f-e6cf26269dcb
+C:\Program Files (x86)\Cypress\PSoC Creator\3.3\PSoC Creator\psoc\content\cyprimitives\CyPrimitives.cylib\CyPrimitives.cyprj|ce3d33b0-50a3-4351-ae54-ef3488343c87
