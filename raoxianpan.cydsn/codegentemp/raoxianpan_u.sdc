@@ -1,3 +1,3 @@
-# Component constraints for D:\pxc\robot-raoxianpan\raoxianpan.cydsn\TopDesign\TopDesign.cysch
-# Project: D:\pxc\robot-raoxianpan\raoxianpan.cydsn\raoxianpan.cyprj
-# Date: Mon, 28 Nov 2016 05:06:07 GMT
+# Component constraints for D:\robot\git_code\robot_raoxianpan_C\raoxianpan.cydsn\TopDesign\TopDesign.cysch
+# Project: D:\robot\git_code\robot_raoxianpan_C\raoxianpan.cydsn\raoxianpan.cyprj
+# Date: Thu, 16 Feb 2017 07:18:24 GMT

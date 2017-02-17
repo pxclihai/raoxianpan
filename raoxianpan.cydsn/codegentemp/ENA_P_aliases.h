@@ -1,5 +1,5 @@
 /*******************************************************************************
-* File Name: Beep.h  
+* File Name: ENA_P.h  
 * Version 2.10
 *
 * Description:
@@ -14,8 +14,8 @@
 * the software package with which this file was provided.
 *******************************************************************************/
 
-#if !defined(CY_PINS_Beep_ALIASES_H) /* Pins Beep_ALIASES_H */
-#define CY_PINS_Beep_ALIASES_H
+#if !defined(CY_PINS_ENA_P_ALIASES_H) /* Pins ENA_P_ALIASES_H */
+#define CY_PINS_ENA_P_ALIASES_H
 
 #include "cytypes.h"
 #include "cyfitter.h"
@@ -25,8 +25,8 @@
 /***************************************
 *              Constants        
 ***************************************/
-#define Beep_0		(Beep__0__PC)
+#define ENA_P_0		(ENA_P__0__PC)
 
-#endif /* End Pins Beep_ALIASES_H */
+#endif /* End Pins ENA_P_ALIASES_H */
 
 /* [] END OF FILE */

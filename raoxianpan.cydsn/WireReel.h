@@ -9,8 +9,8 @@
  *
  * ========================================
 */
-#ifndef _CAR_H
-#define	_CAR_H
+#ifndef _WIREREEL_H
+#define	_WIREREEL_H
 #include <project.h>
 enum CAR_DIR{UP,DOWN,LEFT,RIGHT,
              UP_LEFT,UP_RIGHT,DOWN_LEFT,DOWN_RIGHT,
@@ -37,14 +37,23 @@ typedef struct
     uint8    control_dir;
     uint8    control_flag;
     uint16    control_speed;
-    uint8 hearting;
+  
     uint16 pull_max;
     uint16 pull_min;
     uint8  pull_dir;
 }S_CAR;
 S_CAR g_Car;
-void Car_init();
-void Car_Dir(enum CAR_DIR dir,uint16 speed);
-void Control_Car();
+typedef struct
+{
+    uint8  run_state; 
+    uint8  hearting;
+    uint8  error;
+    uint16 B_V;
+   
+   
+}S_WIREREEL;
+S_WIREREEL g_WireReel;
+void WireReel_init();
+void WireReel_control_Loop();
 #endif
 /* [] END OF FILE */

@@ -37,9 +37,7 @@ void DT_Send_MotoPWM(uint16 m_1,uint16 m_2,uint16 m_3,uint16 m_4,uint16 m_5,uint
 void DT_Send_PID(uint8 group,float p1_p,float p1_i,float p1_d,float p2_p,float p2_i,float p2_d,float p3_p,float p3_i,float p3_d);
 void DT_Send_Command_Led(uint8 car_led[]);
 
-void DT_Send_Status(enum CAR_DIR car_dir);
-void DT_Send_Command_Ptz(enum CAR_DIR car_dir);
-void DT_Send_Command_Speed(uint16 car_speed);
+void DT_Send_Status(uint8 run_state,uint16 B_V);
 
 #endif
 

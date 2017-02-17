@@ -1,78 +1,102 @@
-C:/Users/li/Desktop/pxc/robot-raoxianpan/raoxianpan.cydsn/CortexM3/ARM_GCC_493/Debug/main.o : C:/Users/li/Desktop/pxc/robot-raoxianpan/raoxianpan.cydsn/Generated_Source/PSoC5/Beep.h C:/Users/li/Desktop/pxc/robot-raoxianpan/raoxianpan.cydsn/Generated_Source/PSoC5/Beep_aliases.h C:/Users/li/Desktop/pxc/robot-raoxianpan/raoxianpan.cydsn/Generated_Source/PSoC5/Clock_1.h C:/Users/li/Desktop/pxc/robot-raoxianpan/raoxianpan.cydsn/Generated_Source/PSoC5/CyDmac.h C:/Users/li/Desktop/pxc/robot-raoxianpan/raoxianpan.cydsn/Generated_Source/PSoC5/CyFlash.h C:/Users/li/Desktop/pxc/robot-raoxianpan/raoxianpan.cydsn/Generated_Source/PSoC5/CyLib.h C:/Users/li/Desktop/pxc/robot-raoxianpan/raoxianpan.cydsn/Generated_Source/PSoC5/CySpc.h C:/Users/li/Desktop/pxc/robot-raoxianpan/raoxianpan.cydsn/Generated_Source/PSoC5/DIR.h C:/Users/li/Desktop/pxc/robot-raoxianpan/raoxianpan.cydsn/Generated_Source/PSoC5/DIR_aliases.h C:/Users/li/Desktop/pxc/robot-raoxianpan/raoxianpan.cydsn/Generated_Source/PSoC5/ENA.h C:/Users/li/Desktop/pxc/robot-raoxianpan/raoxianpan.cydsn/Generated_Source/PSoC5/ENA_aliases.h C:/Users/li/Desktop/pxc/robot-raoxianpan/raoxianpan.cydsn/Generated_Source/PSoC5/PUL.h C:/Users/li/Desktop/pxc/robot-raoxianpan/raoxianpan.cydsn/Generated_Source/PSoC5/PUL_aliases.h C:/Users/li/Desktop/pxc/robot-raoxianpan/raoxianpan.cydsn/Generated_Source/PSoC5/PWM_1.h C:/Users/li/Desktop/pxc/robot-raoxianpan/raoxianpan.cydsn/Generated_Source/PSoC5/Timer_1.h C:/Users/li/Desktop/pxc/robot-raoxianpan/raoxianpan.cydsn/Generated_Source/PSoC5/UART_net.h C:/Users/li/Desktop/pxc/robot-raoxianpan/raoxianpan.cydsn/Generated_Source/PSoC5/UART_net_IntClock.h C:/Users/li/Desktop/pxc/robot-raoxianpan/raoxianpan.cydsn/Generated_Source/PSoC5/core_cm3.h C:/Users/li/Desktop/pxc/robot-raoxianpan/raoxianpan.cydsn/Generated_Source/PSoC5/core_cm3_psoc5.h C:/Users/li/Desktop/pxc/robot-raoxianpan/raoxianpan.cydsn/Generated_Source/PSoC5/core_cmFunc.h C:/Users/li/Desktop/pxc/robot-raoxianpan/raoxianpan.cydsn/Generated_Source/PSoC5/core_cmInstr.h C:/Users/li/Desktop/pxc/robot-raoxianpan/raoxianpan.cydsn/Generated_Source/PSoC5/cyPm.h C:/Users/li/Desktop/pxc/robot-raoxianpan/raoxianpan.cydsn/Generated_Source/PSoC5/cydevice.h C:/Users/li/Desktop/pxc/robot-raoxianpan/raoxianpan.cydsn/Generated_Source/PSoC5/cydevice_trm.h C:/Users/li/Desktop/pxc/robot-raoxianpan/raoxianpan.cydsn/Generated_Source/PSoC5/cydisabledsheets.h C:/Users/li/Desktop/pxc/robot-raoxianpan/raoxianpan.cydsn/Generated_Source/PSoC5/cyfitter.h C:/Users/li/Desktop/pxc/robot-raoxianpan/raoxianpan.cydsn/Generated_Source/PSoC5/cyfitter_cfg.h C:/Users/li/Desktop/pxc/robot-raoxianpan/raoxianpan.cydsn/Generated_Source/PSoC5/cypins.h C:/Users/li/Desktop/pxc/robot-raoxianpan/raoxianpan.cydsn/Generated_Source/PSoC5/cytypes.h C:/Users/li/Desktop/pxc/robot-raoxianpan/raoxianpan.cydsn/Generated_Source/PSoC5/isr_rx_net.h C:/Users/li/Desktop/pxc/robot-raoxianpan/raoxianpan.cydsn/Generated_Source/PSoC5/isr_timer.h C:/Users/li/Desktop/pxc/robot-raoxianpan/raoxianpan.cydsn/Generated_Source/PSoC5/isr_tx_net.h C:/Users/li/Desktop/pxc/robot-raoxianpan/raoxianpan.cydsn/Generated_Source/PSoC5/project.h C:/Users/li/Desktop/pxc/robot-raoxianpan/raoxianpan.cydsn/Transfer.h C:/Users/li/Desktop/pxc/robot-raoxianpan/raoxianpan.cydsn/buzzer.h C:/Users/li/Desktop/pxc/robot-raoxianpan/raoxianpan.cydsn/car.h C:/Users/li/Desktop/pxc/robot-raoxianpan/raoxianpan.cydsn/key.h C:/Users/li/Desktop/pxc/robot-raoxianpan/raoxianpan.cydsn/main.c 
+D:/robot/git_code/robot_raoxianpan_C/raoxianpan.cydsn/CortexM3/ARM_GCC_493/Debug/main.o : D:/robot/git_code/robot_raoxianpan_C/raoxianpan.cydsn/Generated_Source/PSoC5/ADC.h D:/robot/git_code/robot_raoxianpan_C/raoxianpan.cydsn/Generated_Source/PSoC5/ADC_IRQ.h D:/robot/git_code/robot_raoxianpan_C/raoxianpan.cydsn/Generated_Source/PSoC5/ADC_theACLK.h D:/robot/git_code/robot_raoxianpan_C/raoxianpan.cydsn/Generated_Source/PSoC5/BATTERY.h D:/robot/git_code/robot_raoxianpan_C/raoxianpan.cydsn/Generated_Source/PSoC5/BATTERY_aliases.h D:/robot/git_code/robot_raoxianpan_C/raoxianpan.cydsn/Generated_Source/PSoC5/Clock_1.h D:/robot/git_code/robot_raoxianpan_C/raoxianpan.cydsn/Generated_Source/PSoC5/CyDmac.h D:/robot/git_code/robot_raoxianpan_C/raoxianpan.cydsn/Generated_Source/PSoC5/CyFlash.h D:/robot/git_code/robot_raoxianpan_C/raoxianpan.cydsn/Generated_Source/PSoC5/CyLib.h D:/robot/git_code/robot_raoxianpan_C/raoxianpan.cydsn/Generated_Source/PSoC5/CySpc.h D:/robot/git_code/robot_raoxianpan_C/raoxianpan.cydsn/Generated_Source/PSoC5/DIR.h D:/robot/git_code/robot_raoxianpan_C/raoxianpan.cydsn/Generated_Source/PSoC5/DIR_P.h D:/robot/git_code/robot_raoxianpan_C/raoxianpan.cydsn/Generated_Source/PSoC5/DIR_P_aliases.h D:/robot/git_code/robot_raoxianpan_C/raoxianpan.cydsn/Generated_Source/PSoC5/DIR_aliases.h D:/robot/git_code/robot_raoxianpan_C/raoxianpan.cydsn/Generated_Source/PSoC5/ENA.h D:/robot/git_code/robot_raoxianpan_C/raoxianpan.cydsn/Generated_Source/PSoC5/ENA_P.h D:/robot/git_code/robot_raoxianpan_C/raoxianpan.cydsn/Generated_Source/PSoC5/ENA_P_aliases.h D:/robot/git_code/robot_raoxianpan_C/raoxianpan.cydsn/Generated_Source/PSoC5/ENA_aliases.h D:/robot/git_code/robot_raoxianpan_C/raoxianpan.cydsn/Generated_Source/PSoC5/PUL.h D:/robot/git_code/robot_raoxianpan_C/raoxianpan.cydsn/Generated_Source/PSoC5/PUL_P.h D:/robot/git_code/robot_raoxianpan_C/raoxianpan.cydsn/Generated_Source/PSoC5/PUL_P_aliases.h D:/robot/git_code/robot_raoxianpan_C/raoxianpan.cydsn/Generated_Source/PSoC5/PUL_aliases.h D:/robot/git_code/robot_raoxianpan_C/raoxianpan.cydsn/Generated_Source/PSoC5/PWM_1.h D:/robot/git_code/robot_raoxianpan_C/raoxianpan.cydsn/Generated_Source/PSoC5/PWM_P.h D:/robot/git_code/robot_raoxianpan_C/raoxianpan.cydsn/Generated_Source/PSoC5/Timer_1.h D:/robot/git_code/robot_raoxianpan_C/raoxianpan.cydsn/Generated_Source/PSoC5/UART_net.h D:/robot/git_code/robot_raoxianpan_C/raoxianpan.cydsn/Generated_Source/PSoC5/UART_net_IntClock.h D:/robot/git_code/robot_raoxianpan_C/raoxianpan.cydsn/Generated_Source/PSoC5/core_cm3.h D:/robot/git_code/robot_raoxianpan_C/raoxianpan.cydsn/Generated_Source/PSoC5/core_cm3_psoc5.h D:/robot/git_code/robot_raoxianpan_C/raoxianpan.cydsn/Generated_Source/PSoC5/core_cmFunc.h D:/robot/git_code/robot_raoxianpan_C/raoxianpan.cydsn/Generated_Source/PSoC5/core_cmInstr.h D:/robot/git_code/robot_raoxianpan_C/raoxianpan.cydsn/Generated_Source/PSoC5/cyPm.h D:/robot/git_code/robot_raoxianpan_C/raoxianpan.cydsn/Generated_Source/PSoC5/cydevice.h D:/robot/git_code/robot_raoxianpan_C/raoxianpan.cydsn/Generated_Source/PSoC5/cydevice_trm.h D:/robot/git_code/robot_raoxianpan_C/raoxianpan.cydsn/Generated_Source/PSoC5/cydisabledsheets.h D:/robot/git_code/robot_raoxianpan_C/raoxianpan.cydsn/Generated_Source/PSoC5/cyfitter.h D:/robot/git_code/robot_raoxianpan_C/raoxianpan.cydsn/Generated_Source/PSoC5/cyfitter_cfg.h D:/robot/git_code/robot_raoxianpan_C/raoxianpan.cydsn/Generated_Source/PSoC5/cypins.h D:/robot/git_code/robot_raoxianpan_C/raoxianpan.cydsn/Generated_Source/PSoC5/cytypes.h D:/robot/git_code/robot_raoxianpan_C/raoxianpan.cydsn/Generated_Source/PSoC5/isr_rx_net.h D:/robot/git_code/robot_raoxianpan_C/raoxianpan.cydsn/Generated_Source/PSoC5/isr_timer.h D:/robot/git_code/robot_raoxianpan_C/raoxianpan.cydsn/Generated_Source/PSoC5/isr_tx_net.h D:/robot/git_code/robot_raoxianpan_C/raoxianpan.cydsn/Generated_Source/PSoC5/project.h D:/robot/git_code/robot_raoxianpan_C/raoxianpan.cydsn/Transfer.h D:/robot/git_code/robot_raoxianpan_C/raoxianpan.cydsn/V_battery.h D:/robot/git_code/robot_raoxianpan_C/raoxianpan.cydsn/buzzer.h D:/robot/git_code/robot_raoxianpan_C/raoxianpan.cydsn/car.h D:/robot/git_code/robot_raoxianpan_C/raoxianpan.cydsn/key.h D:/robot/git_code/robot_raoxianpan_C/raoxianpan.cydsn/main.c D:/robot/git_code/robot_raoxianpan_C/raoxianpan.cydsn/multi_timer.h 
 
-C:/Users/li/Desktop/pxc/robot-raoxianpan/raoxianpan.cydsn/Generated_Source/PSoC5/Beep.h : 
+D:/robot/git_code/robot_raoxianpan_C/raoxianpan.cydsn/Generated_Source/PSoC5/ADC.h : 
 
-C:/Users/li/Desktop/pxc/robot-raoxianpan/raoxianpan.cydsn/Generated_Source/PSoC5/Beep_aliases.h : 
+D:/robot/git_code/robot_raoxianpan_C/raoxianpan.cydsn/Generated_Source/PSoC5/ADC_IRQ.h : 
 
-C:/Users/li/Desktop/pxc/robot-raoxianpan/raoxianpan.cydsn/Generated_Source/PSoC5/Clock_1.h : 
+D:/robot/git_code/robot_raoxianpan_C/raoxianpan.cydsn/Generated_Source/PSoC5/ADC_theACLK.h : 
 
-C:/Users/li/Desktop/pxc/robot-raoxianpan/raoxianpan.cydsn/Generated_Source/PSoC5/CyDmac.h : 
+D:/robot/git_code/robot_raoxianpan_C/raoxianpan.cydsn/Generated_Source/PSoC5/BATTERY.h : 
 
-C:/Users/li/Desktop/pxc/robot-raoxianpan/raoxianpan.cydsn/Generated_Source/PSoC5/CyFlash.h : 
+D:/robot/git_code/robot_raoxianpan_C/raoxianpan.cydsn/Generated_Source/PSoC5/BATTERY_aliases.h : 
 
-C:/Users/li/Desktop/pxc/robot-raoxianpan/raoxianpan.cydsn/Generated_Source/PSoC5/CyLib.h : 
+D:/robot/git_code/robot_raoxianpan_C/raoxianpan.cydsn/Generated_Source/PSoC5/Clock_1.h : 
 
-C:/Users/li/Desktop/pxc/robot-raoxianpan/raoxianpan.cydsn/Generated_Source/PSoC5/CySpc.h : 
+D:/robot/git_code/robot_raoxianpan_C/raoxianpan.cydsn/Generated_Source/PSoC5/CyDmac.h : 
 
-C:/Users/li/Desktop/pxc/robot-raoxianpan/raoxianpan.cydsn/Generated_Source/PSoC5/DIR.h : 
+D:/robot/git_code/robot_raoxianpan_C/raoxianpan.cydsn/Generated_Source/PSoC5/CyFlash.h : 
 
-C:/Users/li/Desktop/pxc/robot-raoxianpan/raoxianpan.cydsn/Generated_Source/PSoC5/DIR_aliases.h : 
+D:/robot/git_code/robot_raoxianpan_C/raoxianpan.cydsn/Generated_Source/PSoC5/CyLib.h : 
 
-C:/Users/li/Desktop/pxc/robot-raoxianpan/raoxianpan.cydsn/Generated_Source/PSoC5/ENA.h : 
+D:/robot/git_code/robot_raoxianpan_C/raoxianpan.cydsn/Generated_Source/PSoC5/CySpc.h : 
 
-C:/Users/li/Desktop/pxc/robot-raoxianpan/raoxianpan.cydsn/Generated_Source/PSoC5/ENA_aliases.h : 
+D:/robot/git_code/robot_raoxianpan_C/raoxianpan.cydsn/Generated_Source/PSoC5/DIR.h : 
 
-C:/Users/li/Desktop/pxc/robot-raoxianpan/raoxianpan.cydsn/Generated_Source/PSoC5/PUL.h : 
+D:/robot/git_code/robot_raoxianpan_C/raoxianpan.cydsn/Generated_Source/PSoC5/DIR_P.h : 
 
-C:/Users/li/Desktop/pxc/robot-raoxianpan/raoxianpan.cydsn/Generated_Source/PSoC5/PUL_aliases.h : 
+D:/robot/git_code/robot_raoxianpan_C/raoxianpan.cydsn/Generated_Source/PSoC5/DIR_P_aliases.h : 
 
-C:/Users/li/Desktop/pxc/robot-raoxianpan/raoxianpan.cydsn/Generated_Source/PSoC5/PWM_1.h : 
+D:/robot/git_code/robot_raoxianpan_C/raoxianpan.cydsn/Generated_Source/PSoC5/DIR_aliases.h : 
 
-C:/Users/li/Desktop/pxc/robot-raoxianpan/raoxianpan.cydsn/Generated_Source/PSoC5/Timer_1.h : 
+D:/robot/git_code/robot_raoxianpan_C/raoxianpan.cydsn/Generated_Source/PSoC5/ENA.h : 
 
-C:/Users/li/Desktop/pxc/robot-raoxianpan/raoxianpan.cydsn/Generated_Source/PSoC5/UART_net.h : 
+D:/robot/git_code/robot_raoxianpan_C/raoxianpan.cydsn/Generated_Source/PSoC5/ENA_P.h : 
 
-C:/Users/li/Desktop/pxc/robot-raoxianpan/raoxianpan.cydsn/Generated_Source/PSoC5/UART_net_IntClock.h : 
+D:/robot/git_code/robot_raoxianpan_C/raoxianpan.cydsn/Generated_Source/PSoC5/ENA_P_aliases.h : 
 
-C:/Users/li/Desktop/pxc/robot-raoxianpan/raoxianpan.cydsn/Generated_Source/PSoC5/core_cm3.h : 
+D:/robot/git_code/robot_raoxianpan_C/raoxianpan.cydsn/Generated_Source/PSoC5/ENA_aliases.h : 
 
-C:/Users/li/Desktop/pxc/robot-raoxianpan/raoxianpan.cydsn/Generated_Source/PSoC5/core_cm3_psoc5.h : 
+D:/robot/git_code/robot_raoxianpan_C/raoxianpan.cydsn/Generated_Source/PSoC5/PUL.h : 
 
-C:/Users/li/Desktop/pxc/robot-raoxianpan/raoxianpan.cydsn/Generated_Source/PSoC5/core_cmFunc.h : 
+D:/robot/git_code/robot_raoxianpan_C/raoxianpan.cydsn/Generated_Source/PSoC5/PUL_P.h : 
 
-C:/Users/li/Desktop/pxc/robot-raoxianpan/raoxianpan.cydsn/Generated_Source/PSoC5/core_cmInstr.h : 
+D:/robot/git_code/robot_raoxianpan_C/raoxianpan.cydsn/Generated_Source/PSoC5/PUL_P_aliases.h : 
 
-C:/Users/li/Desktop/pxc/robot-raoxianpan/raoxianpan.cydsn/Generated_Source/PSoC5/cyPm.h : 
+D:/robot/git_code/robot_raoxianpan_C/raoxianpan.cydsn/Generated_Source/PSoC5/PUL_aliases.h : 
 
-C:/Users/li/Desktop/pxc/robot-raoxianpan/raoxianpan.cydsn/Generated_Source/PSoC5/cydevice.h : 
+D:/robot/git_code/robot_raoxianpan_C/raoxianpan.cydsn/Generated_Source/PSoC5/PWM_1.h : 
 
-C:/Users/li/Desktop/pxc/robot-raoxianpan/raoxianpan.cydsn/Generated_Source/PSoC5/cydevice_trm.h : 
+D:/robot/git_code/robot_raoxianpan_C/raoxianpan.cydsn/Generated_Source/PSoC5/PWM_P.h : 
 
-C:/Users/li/Desktop/pxc/robot-raoxianpan/raoxianpan.cydsn/Generated_Source/PSoC5/cydisabledsheets.h : 
+D:/robot/git_code/robot_raoxianpan_C/raoxianpan.cydsn/Generated_Source/PSoC5/Timer_1.h : 
 
-C:/Users/li/Desktop/pxc/robot-raoxianpan/raoxianpan.cydsn/Generated_Source/PSoC5/cyfitter.h : 
+D:/robot/git_code/robot_raoxianpan_C/raoxianpan.cydsn/Generated_Source/PSoC5/UART_net.h : 
 
-C:/Users/li/Desktop/pxc/robot-raoxianpan/raoxianpan.cydsn/Generated_Source/PSoC5/cyfitter_cfg.h : 
+D:/robot/git_code/robot_raoxianpan_C/raoxianpan.cydsn/Generated_Source/PSoC5/UART_net_IntClock.h : 
 
-C:/Users/li/Desktop/pxc/robot-raoxianpan/raoxianpan.cydsn/Generated_Source/PSoC5/cypins.h : 
+D:/robot/git_code/robot_raoxianpan_C/raoxianpan.cydsn/Generated_Source/PSoC5/core_cm3.h : 
 
-C:/Users/li/Desktop/pxc/robot-raoxianpan/raoxianpan.cydsn/Generated_Source/PSoC5/cytypes.h : 
+D:/robot/git_code/robot_raoxianpan_C/raoxianpan.cydsn/Generated_Source/PSoC5/core_cm3_psoc5.h : 
 
-C:/Users/li/Desktop/pxc/robot-raoxianpan/raoxianpan.cydsn/Generated_Source/PSoC5/isr_rx_net.h : 
+D:/robot/git_code/robot_raoxianpan_C/raoxianpan.cydsn/Generated_Source/PSoC5/core_cmFunc.h : 
 
-C:/Users/li/Desktop/pxc/robot-raoxianpan/raoxianpan.cydsn/Generated_Source/PSoC5/isr_timer.h : 
+D:/robot/git_code/robot_raoxianpan_C/raoxianpan.cydsn/Generated_Source/PSoC5/core_cmInstr.h : 
 
-C:/Users/li/Desktop/pxc/robot-raoxianpan/raoxianpan.cydsn/Generated_Source/PSoC5/isr_tx_net.h : 
+D:/robot/git_code/robot_raoxianpan_C/raoxianpan.cydsn/Generated_Source/PSoC5/cyPm.h : 
 
-C:/Users/li/Desktop/pxc/robot-raoxianpan/raoxianpan.cydsn/Generated_Source/PSoC5/project.h : 
+D:/robot/git_code/robot_raoxianpan_C/raoxianpan.cydsn/Generated_Source/PSoC5/cydevice.h : 
 
-C:/Users/li/Desktop/pxc/robot-raoxianpan/raoxianpan.cydsn/Transfer.h : 
+D:/robot/git_code/robot_raoxianpan_C/raoxianpan.cydsn/Generated_Source/PSoC5/cydevice_trm.h : 
 
-C:/Users/li/Desktop/pxc/robot-raoxianpan/raoxianpan.cydsn/buzzer.h : 
+D:/robot/git_code/robot_raoxianpan_C/raoxianpan.cydsn/Generated_Source/PSoC5/cydisabledsheets.h : 
 
-C:/Users/li/Desktop/pxc/robot-raoxianpan/raoxianpan.cydsn/car.h : 
+D:/robot/git_code/robot_raoxianpan_C/raoxianpan.cydsn/Generated_Source/PSoC5/cyfitter.h : 
 
-C:/Users/li/Desktop/pxc/robot-raoxianpan/raoxianpan.cydsn/key.h : 
+D:/robot/git_code/robot_raoxianpan_C/raoxianpan.cydsn/Generated_Source/PSoC5/cyfitter_cfg.h : 
 
-C:/Users/li/Desktop/pxc/robot-raoxianpan/raoxianpan.cydsn/main.c : 
+D:/robot/git_code/robot_raoxianpan_C/raoxianpan.cydsn/Generated_Source/PSoC5/cypins.h : 
+
+D:/robot/git_code/robot_raoxianpan_C/raoxianpan.cydsn/Generated_Source/PSoC5/cytypes.h : 
+
+D:/robot/git_code/robot_raoxianpan_C/raoxianpan.cydsn/Generated_Source/PSoC5/isr_rx_net.h : 
+
+D:/robot/git_code/robot_raoxianpan_C/raoxianpan.cydsn/Generated_Source/PSoC5/isr_timer.h : 
+
+D:/robot/git_code/robot_raoxianpan_C/raoxianpan.cydsn/Generated_Source/PSoC5/isr_tx_net.h : 
+
+D:/robot/git_code/robot_raoxianpan_C/raoxianpan.cydsn/Generated_Source/PSoC5/project.h : 
+
+D:/robot/git_code/robot_raoxianpan_C/raoxianpan.cydsn/Transfer.h : 
+
+D:/robot/git_code/robot_raoxianpan_C/raoxianpan.cydsn/V_battery.h : 
+
+D:/robot/git_code/robot_raoxianpan_C/raoxianpan.cydsn/buzzer.h : 
+
+D:/robot/git_code/robot_raoxianpan_C/raoxianpan.cydsn/car.h : 
+
+D:/robot/git_code/robot_raoxianpan_C/raoxianpan.cydsn/key.h : 
+
+D:/robot/git_code/robot_raoxianpan_C/raoxianpan.cydsn/main.c : 
+
+D:/robot/git_code/robot_raoxianpan_C/raoxianpan.cydsn/multi_timer.h : 
 

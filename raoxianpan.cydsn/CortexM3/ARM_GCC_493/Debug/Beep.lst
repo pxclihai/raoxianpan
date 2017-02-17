@@ -1,4 +1,4 @@
-ARM GAS  C:\Users\li\AppData\Local\Temp\ccFDmPaj.s 			page 1
+ARM GAS  C:\Users\pxc\AppData\Local\Temp\cc793mNy.s 			page 1
 
 
    1              		.syntax unified
@@ -58,7 +58,7 @@ ARM GAS  C:\Users\li\AppData\Local\Temp\ccFDmPaj.s 			page 1
   29:.\Generated_Source\PSoC5/Beep.c **** * Summary:
   30:.\Generated_Source\PSoC5/Beep.c **** *  Assign a new value to the digital port's data output register.  
   31:.\Generated_Source\PSoC5/Beep.c **** *
-ARM GAS  C:\Users\li\AppData\Local\Temp\ccFDmPaj.s 			page 2
+ARM GAS  C:\Users\pxc\AppData\Local\Temp\cc793mNy.s 			page 2
 
 
   32:.\Generated_Source\PSoC5/Beep.c **** * Parameters:  
@@ -118,7 +118,7 @@ ARM GAS  C:\Users\li\AppData\Local\Temp\ccFDmPaj.s 			page 1
   54:.\Generated_Source\PSoC5/Beep.c **** *  mode:  Change the pins to one of the following drive modes.
   55:.\Generated_Source\PSoC5/Beep.c **** *
   56:.\Generated_Source\PSoC5/Beep.c **** *  Beep_DM_STRONG     Strong Drive 
-ARM GAS  C:\Users\li\AppData\Local\Temp\ccFDmPaj.s 			page 3
+ARM GAS  C:\Users\pxc\AppData\Local\Temp\cc793mNy.s 			page 3
 
 
   57:.\Generated_Source\PSoC5/Beep.c **** *  Beep_DM_OD_HI      Open Drain, Drives High 
@@ -178,7 +178,7 @@ ARM GAS  C:\Users\li\AppData\Local\Temp\ccFDmPaj.s 			page 1
   81:.\Generated_Source\PSoC5/Beep.c **** *  form.
   82:.\Generated_Source\PSoC5/Beep.c **** *
   83:.\Generated_Source\PSoC5/Beep.c **** * Parameters:  
-ARM GAS  C:\Users\li\AppData\Local\Temp\ccFDmPaj.s 			page 4
+ARM GAS  C:\Users\pxc\AppData\Local\Temp\cc793mNy.s 			page 4
 
 
   84:.\Generated_Source\PSoC5/Beep.c **** *  None
@@ -238,7 +238,7 @@ ARM GAS  C:\Users\li\AppData\Local\Temp\ccFDmPaj.s 			page 1
  112:.\Generated_Source\PSoC5/Beep.c **** *******************************************************************************/
  113:.\Generated_Source\PSoC5/Beep.c **** uint8 Beep_ReadDataReg(void) 
  114:.\Generated_Source\PSoC5/Beep.c **** {
-ARM GAS  C:\Users\li\AppData\Local\Temp\ccFDmPaj.s 			page 5
+ARM GAS  C:\Users\pxc\AppData\Local\Temp\cc793mNy.s 			page 5
 
 
  115              		.loc 1 114 0
@@ -273,15 +273,15 @@ ARM GAS  C:\Users\li\AppData\Local\Temp\ccFDmPaj.s 			page 1
  142 000b 01       		.uleb128 0x1
  143 000c 7D000000 		.4byte	.LASF20
  144 0010 01       		.byte	0x1
- 145 0011 B7010000 		.4byte	.LASF21
- 146 0015 68010000 		.4byte	.LASF22
+ 145 0011 B3010000 		.4byte	.LASF21
+ 146 0015 53010000 		.4byte	.LASF22
  147 0019 00000000 		.4byte	.Ldebug_ranges0+0
  148 001d 00000000 		.4byte	0
  149 0021 00000000 		.4byte	.Ldebug_line0
  150 0025 02       		.uleb128 0x2
  151 0026 01       		.byte	0x1
  152 0027 06       		.byte	0x6
- 153 0028 AB010000 		.4byte	.LASF0
+ 153 0028 A7010000 		.4byte	.LASF0
  154 002c 02       		.uleb128 0x2
  155 002d 01       		.byte	0x1
  156 002e 08       		.byte	0x8
@@ -289,7 +289,7 @@ ARM GAS  C:\Users\li\AppData\Local\Temp\ccFDmPaj.s 			page 1
  158 0033 02       		.uleb128 0x2
  159 0034 02       		.byte	0x2
  160 0035 05       		.byte	0x5
- 161 0036 58010000 		.4byte	.LASF2
+ 161 0036 8E010000 		.4byte	.LASF2
  162 003a 02       		.uleb128 0x2
  163 003b 02       		.byte	0x2
  164 003c 07       		.byte	0x7
@@ -297,8 +297,8 @@ ARM GAS  C:\Users\li\AppData\Local\Temp\ccFDmPaj.s 			page 1
  166 0041 02       		.uleb128 0x2
  167 0042 04       		.byte	0x4
  168 0043 05       		.byte	0x5
- 169 0044 A2010000 		.4byte	.LASF4
-ARM GAS  C:\Users\li\AppData\Local\Temp\ccFDmPaj.s 			page 6
+ 169 0044 9E010000 		.4byte	.LASF4
+ARM GAS  C:\Users\pxc\AppData\Local\Temp\cc793mNy.s 			page 6
 
 
  170 0048 02       		.uleb128 0x2
@@ -322,7 +322,7 @@ ARM GAS  C:\Users\li\AppData\Local\Temp\ccFDmPaj.s 			page 1
  188 0066 07       		.byte	0x7
  189 0067 0B010000 		.4byte	.LASF8
  190 006b 04       		.uleb128 0x4
- 191 006c 62010000 		.4byte	.LASF12
+ 191 006c 98010000 		.4byte	.LASF12
  192 0070 02       		.byte	0x2
  193 0071 C2       		.byte	0xc2
  194 0072 2C000000 		.4byte	0x2c
@@ -337,7 +337,7 @@ ARM GAS  C:\Users\li\AppData\Local\Temp\ccFDmPaj.s 			page 1
  203 0084 02       		.uleb128 0x2
  204 0085 01       		.byte	0x1
  205 0086 08       		.byte	0x8
- 206 0087 53010000 		.4byte	.LASF11
+ 206 0087 89010000 		.4byte	.LASF11
  207 008b 05       		.uleb128 0x5
  208 008c 3A000000 		.4byte	.LASF13
  209 0090 02       		.byte	0x2
@@ -358,7 +358,7 @@ ARM GAS  C:\Users\li\AppData\Local\Temp\ccFDmPaj.s 			page 1
  224 00b2 0B000000 		.4byte	.LASF16
  225 00b6 01       		.byte	0x1
  226 00b7 27       		.byte	0x27
-ARM GAS  C:\Users\li\AppData\Local\Temp\ccFDmPaj.s 			page 7
+ARM GAS  C:\Users\pxc\AppData\Local\Temp\cc793mNy.s 			page 7
 
 
  227 00b8 6B000000 		.4byte	0x6b
@@ -418,7 +418,7 @@ ARM GAS  C:\Users\li\AppData\Local\Temp\ccFDmPaj.s 			page 1
  281 0007 03       		.uleb128 0x3
  282 0008 0E       		.uleb128 0xe
  283 0009 1B       		.uleb128 0x1b
-ARM GAS  C:\Users\li\AppData\Local\Temp\ccFDmPaj.s 			page 8
+ARM GAS  C:\Users\pxc\AppData\Local\Temp\cc793mNy.s 			page 8
 
 
  284 000a 0E       		.uleb128 0xe
@@ -478,7 +478,7 @@ ARM GAS  C:\Users\li\AppData\Local\Temp\ccFDmPaj.s 			page 1
  338 0040 13       		.uleb128 0x13
  339 0041 00       		.byte	0
  340 0042 00       		.byte	0
-ARM GAS  C:\Users\li\AppData\Local\Temp\ccFDmPaj.s 			page 9
+ARM GAS  C:\Users\pxc\AppData\Local\Temp\cc793mNy.s 			page 9
 
 
  341 0043 06       		.uleb128 0x6
@@ -538,7 +538,7 @@ ARM GAS  C:\Users\li\AppData\Local\Temp\ccFDmPaj.s 			page 1
  395 007a 3B       		.uleb128 0x3b
  396 007b 0B       		.uleb128 0xb
  397 007c 49       		.uleb128 0x49
-ARM GAS  C:\Users\li\AppData\Local\Temp\ccFDmPaj.s 			page 10
+ARM GAS  C:\Users\pxc\AppData\Local\Temp\cc793mNy.s 			page 10
 
 
  398 007d 13       		.uleb128 0x13
@@ -598,7 +598,7 @@ ARM GAS  C:\Users\li\AppData\Local\Temp\ccFDmPaj.s 			page 1
  452 0034 0400     		.2byte	0x4
  453 0036 F3       		.byte	0xf3
  454 0037 01       		.uleb128 0x1
-ARM GAS  C:\Users\li\AppData\Local\Temp\ccFDmPaj.s 			page 11
+ARM GAS  C:\Users\pxc\AppData\Local\Temp\cc793mNy.s 			page 11
 
 
  455 0038 50       		.byte	0x50
@@ -658,7 +658,7 @@ ARM GAS  C:\Users\li\AppData\Local\Temp\ccFDmPaj.s 			page 1
  499      5F526561 
  499      6400
  500              	.LASF9:
-ARM GAS  C:\Users\li\AppData\Local\Temp\ccFDmPaj.s 			page 12
+ARM GAS  C:\Users\pxc\AppData\Local\Temp\cc793mNy.s 			page 12
 
 
  501 0026 666C6F61 		.ascii	"float\000"
@@ -718,7 +718,7 @@ ARM GAS  C:\Users\li\AppData\Local\Temp\ccFDmPaj.s 			page 1
  521      206C6F6E 
  521      6720756E 
  521      7369676E 
-ARM GAS  C:\Users\li\AppData\Local\Temp\ccFDmPaj.s 			page 13
+ARM GAS  C:\Users\pxc\AppData\Local\Temp\cc793mNy.s 			page 13
 
 
  521      65642069 
@@ -736,36 +736,34 @@ ARM GAS  C:\Users\li\AppData\Local\Temp\ccFDmPaj.s 			page 1
  527      206C6F6E 
  527      6720696E 
  527      7400
- 528              	.LASF11:
- 529 0153 63686172 		.ascii	"char\000"
- 529      00
- 530              	.LASF2:
- 531 0158 73686F72 		.ascii	"short int\000"
- 531      7420696E 
- 531      7400
- 532              	.LASF12:
- 533 0162 75696E74 		.ascii	"uint8\000"
- 533      3800
- 534              	.LASF22:
- 535 0168 433A5C55 		.ascii	"C:\\Users\\li\\Desktop\\pxc\\robot-raoxianpan\\raox"
- 535      73657273 
- 535      5C6C695C 
- 535      4465736B 
- 535      746F705C 
- 536 0195 69616E70 		.ascii	"ianpan.cydsn\000"
- 536      616E2E63 
- 536      7964736E 
- 536      00
+ 528              	.LASF22:
+ 529 0153 443A5C72 		.ascii	"D:\\robot\\git_code\\robot_raoxianpan_C\\raoxianpan"
+ 529      6F626F74 
+ 529      5C676974 
+ 529      5F636F64 
+ 529      655C726F 
+ 530 0182 2E637964 		.ascii	".cydsn\000"
+ 530      736E00
+ 531              	.LASF11:
+ 532 0189 63686172 		.ascii	"char\000"
+ 532      00
+ 533              	.LASF2:
+ 534 018e 73686F72 		.ascii	"short int\000"
+ 534      7420696E 
+ 534      7400
+ 535              	.LASF12:
+ 536 0198 75696E74 		.ascii	"uint8\000"
+ 536      3800
  537              	.LASF4:
- 538 01a2 6C6F6E67 		.ascii	"long int\000"
+ 538 019e 6C6F6E67 		.ascii	"long int\000"
  538      20696E74 
  538      00
  539              	.LASF0:
- 540 01ab 7369676E 		.ascii	"signed char\000"
+ 540 01a7 7369676E 		.ascii	"signed char\000"
  540      65642063 
  540      68617200 
  541              	.LASF21:
- 542 01b7 2E5C4765 		.ascii	".\\Generated_Source\\PSoC5\\Beep.c\000"
+ 542 01b3 2E5C4765 		.ascii	".\\Generated_Source\\PSoC5\\Beep.c\000"
  542      6E657261 
  542      7465645F 
  542      536F7572 

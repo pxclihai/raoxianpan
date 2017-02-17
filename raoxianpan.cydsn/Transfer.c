@@ -1,7 +1,7 @@
 
 
 #include "Transfer.h"
-#include "car.h"
+#include "WireReel.h"
  
 
 #define BYTE0(dwTemp)       ( *( (char *)(&dwTemp)	  ) )
@@ -47,8 +47,8 @@ void DT_Data_Exchange(void)
 /////////////////////////////////////////////////////////////////////////////////////
 	else if(f.send_status)
 	{
-		//f.send_status = 0;
-	//	DT_Send_Status(0,g_Car.set_dir,g_Car.set_car_speed);
+		f.send_status = 0;
+		DT_Send_Status(g_WireReel.run_state,g_WireReel.B_V);
 	}	
 
 }
@@ -160,7 +160,7 @@ void DT_Data_Receive_Anl(uint8 *data_buf,uint8 num)
     {
         if(*(data_buf+4) == 99)
         {
-            g_Car.hearting = 1;
+            g_WireReel.hearting = 1;
         }
     }
     if(*(data_buf+2)==11)				
@@ -221,7 +221,7 @@ void DT_Send_Version(uint8 hardware_type, uint16 hardware_ver,uint16 software_ve
 	
 	DT_Send_Data(data_to_send, _cnt);
 }
-void DT_Send_Status(enum CAR_DIR car_dir)
+void DT_Send_Status(uint8 run_state,uint16 B_V)
 {
 	uint8 _cnt=0;
     uint8 _temp;
@@ -229,13 +229,15 @@ void DT_Send_Status(enum CAR_DIR car_dir)
 
 	
 	data_to_send[_cnt++]=0xAA;
-	data_to_send[_cnt++]=0xAF;
-	data_to_send[_cnt++]=0x02;
+	data_to_send[_cnt++]=0xAA;
+	data_to_send[_cnt++]=11;
 	data_to_send[_cnt++]=0;
     
-	_temp = car_dir;
+	_temp = run_state;
 	data_to_send[_cnt++]=_temp;
-
+	_temp1 =  B_V;
+	data_to_send[_cnt++]=BYTE1(_temp1);
+	data_to_send[_cnt++]=BYTE0(_temp1);
 	
 	data_to_send[3] = _cnt-4;
 	

@@ -27,7 +27,8 @@
 *  Place your includes, defines and code here 
 ********************************************************************************/
 /* `#START isr_timer_intc` */
-#include "buzzer.h"
+#include "multi_timer.h"
+    
 uint16 time_1ms;
 uint16 time_5ms;   
 uint8  time_5ms_state;
@@ -183,6 +184,7 @@ CY_ISR(isr_timer_Interrupt)
         time_5ms_state = 1;
         time_5ms = 0;
       }
+    timer_ticks();
     /* `#END` */
 }
 
