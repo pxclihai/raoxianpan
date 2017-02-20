@@ -140,7 +140,7 @@ void DT_Data_Receive_Anl(uint8 *data_buf,uint8 num)
         g_Car.set_dir       = *(data_buf+5); 
         g_Car.set_car_speed =  (uint16)(*(data_buf+6)<<8)|*(data_buf+7);
         g_Car.set_pull      =  (uint16)(*(data_buf+8)<<8)|*(data_buf+9);
-        g_Car.hearting      = 1;
+         g_WireReel.hearting      = 1;
 	}
 	
 	if(*(data_buf+2)==0X02)

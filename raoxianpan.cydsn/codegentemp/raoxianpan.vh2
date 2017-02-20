@@ -2,7 +2,7 @@
 --	Conversion of raoxianpan.v to vh2:
 --
 --	Cypress Semiconductor - WARP Version 6.3 IR 41
---	Thu Feb 16 15:18:26 2017
+--	Sat Feb 18 22:37:22 2017
 --
 
 USE cypress.cypress.all;

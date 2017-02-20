@@ -1,5 +1,5 @@
 -- Project:   raoxianpan
--- Generated: 02/16/2017 15:18:27
+-- Generated: 02/18/2017 22:37:23
 -- PSoC Creator  3.3
 
 ENTITY raoxianpan IS
@@ -14,8 +14,8 @@ ENTITY raoxianpan IS
         PUL_P(0)_PAD : OUT std_ulogic);
     ATTRIBUTE voltage_VDDABUF OF __DEFAULT__ : ENTITY IS 5e0;
     ATTRIBUTE voltage_VDDA OF __DEFAULT__ : ENTITY IS 5e0;
-    ATTRIBUTE voltage_VDDD OF __DEFAULT__ : ENTITY IS 5e0;
     ATTRIBUTE voltage_VUSB OF __DEFAULT__ : ENTITY IS 5e0;
+    ATTRIBUTE voltage_VDDD OF __DEFAULT__ : ENTITY IS 5e0;
     ATTRIBUTE voltage_VDDIO0 OF __DEFAULT__ : ENTITY IS 5e0;
     ATTRIBUTE voltage_VDDIO1 OF __DEFAULT__ : ENTITY IS 5e0;
     ATTRIBUTE voltage_VDDIO2 OF __DEFAULT__ : ENTITY IS 5e0;
@@ -192,13 +192,19 @@ ARCHITECTURE __DEFAULT__ OF raoxianpan IS
     ATTRIBUTE Location OF Rx_net(0) : LABEL IS "P3[3]";
     ATTRIBUTE lib_model OF Tx_net(0) : LABEL IS "iocell2";
     ATTRIBUTE Location OF Tx_net(0) : LABEL IS "P3[4]";
-    ATTRIBUTE lib_model OF BATTERY(0) : LABEL IS "iocell3";
+    ATTRIBUTE lib_model OF PUL(0) : LABEL IS "iocell3";
+    ATTRIBUTE Location OF PUL(0) : LABEL IS "P0[3]";
+    ATTRIBUTE lib_model OF ENA(0) : LABEL IS "iocell4";
+    ATTRIBUTE Location OF ENA(0) : LABEL IS "P0[1]";
+    ATTRIBUTE lib_model OF DIR(0) : LABEL IS "iocell5";
+    ATTRIBUTE Location OF DIR(0) : LABEL IS "P0[2]";
+    ATTRIBUTE lib_model OF BATTERY(0) : LABEL IS "iocell6";
     ATTRIBUTE Location OF BATTERY(0) : LABEL IS "P2[5]";
-    ATTRIBUTE lib_model OF ENA_P(0) : LABEL IS "iocell4";
+    ATTRIBUTE lib_model OF ENA_P(0) : LABEL IS "iocell7";
     ATTRIBUTE Location OF ENA_P(0) : LABEL IS "P0[6]";
-    ATTRIBUTE lib_model OF DIR_P(0) : LABEL IS "iocell5";
+    ATTRIBUTE lib_model OF DIR_P(0) : LABEL IS "iocell8";
     ATTRIBUTE Location OF DIR_P(0) : LABEL IS "P0[4]";
-    ATTRIBUTE lib_model OF PUL_P(0) : LABEL IS "iocell6";
+    ATTRIBUTE lib_model OF PUL_P(0) : LABEL IS "iocell9";
     ATTRIBUTE Location OF PUL_P(0) : LABEL IS "P0[5]";
     ATTRIBUTE lib_model OF Net_2 : LABEL IS "macrocell1";
     ATTRIBUTE lib_model OF \UART_net:BUART:counter_load_not\ : LABEL IS "macrocell2";

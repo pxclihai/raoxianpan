@@ -25,7 +25,7 @@
       <Tool Name="postbuild" Command="" Options="" />
     </Toolchain>
   </Toolchains>
-  <Project Name="raoxianpan" Path="D:\robot\git_code\robot_raoxianpan_C\raoxianpan.cydsn" Version="5.20" Type="Normal">
+  <Project Name="raoxianpan" Path="D:\pxc\robot_raoxianpan_C\raoxianpan.cydsn" Version="5.20" Type="Normal">
     <CMSIS_SVD_File>raoxianpan.svd</CMSIS_SVD_File>
     <Datasheet />
     <LinkerFiles>
@@ -34,26 +34,26 @@
       <LinkerFile Toolchain="ARM IAR Generic">.\Generated_Source\PSoC5\Cm3Iar.icf</LinkerFile>
     </LinkerFiles>
     <Folders>
-      <Folder BuildType="BUILD" Path="D:\robot\git_code\robot_raoxianpan_C\raoxianpan.cydsn">
-        <Files Root="D:\robot\git_code\robot_raoxianpan_C\raoxianpan.cydsn">
+      <Folder BuildType="BUILD" Path="D:\pxc\robot_raoxianpan_C\raoxianpan.cydsn">
+        <Files Root="D:\pxc\robot_raoxianpan_C\raoxianpan.cydsn">
           <File BuildType="BUILD" Toolchain="">.\main.c</File>
           <File BuildType="BUILD" Toolchain="">.\Transfer.c</File>
-          <File BuildType="BUILD" Toolchain="">.\car.c</File>
+          <File BuildType="BUILD" Toolchain="">.\WireReel.c</File>
           <File BuildType="BUILD" Toolchain="">.\key.c</File>
           <File BuildType="BUILD" Toolchain="">.\buzzer.c</File>
           <File BuildType="BUILD" Toolchain="">.\V_battery.c</File>
           <File BuildType="BUILD" Toolchain="">.\multi_timer.c</File>
           <File BuildType="BUILD" Toolchain="">.\cyapicallbacks.h</File>
           <File BuildType="BUILD" Toolchain="">.\Transfer.h</File>
-          <File BuildType="BUILD" Toolchain="">.\car.h</File>
+          <File BuildType="BUILD" Toolchain="">.\WireReel.h</File>
           <File BuildType="BUILD" Toolchain="">.\key.h</File>
           <File BuildType="BUILD" Toolchain="">.\buzzer.h</File>
           <File BuildType="BUILD" Toolchain="">.\V_battery.h</File>
           <File BuildType="BUILD" Toolchain="">.\multi_timer.h</File>
         </Files>
       </Folder>
-      <Folder BuildType="STRICT" Path="D:\robot\git_code\robot_raoxianpan_C\raoxianpan.cydsn\Generated_Source\PSoC5">
-        <Files Root="D:\robot\git_code\robot_raoxianpan_C\raoxianpan.cydsn">
+      <Folder BuildType="STRICT" Path="D:\pxc\robot_raoxianpan_C\raoxianpan.cydsn\Generated_Source\PSoC5">
+        <Files Root="D:\pxc\robot_raoxianpan_C\raoxianpan.cydsn">
           <File BuildType="BUILD" Toolchain="">.\Generated_Source\PSoC5\cyfitter_cfg.h</File>
           <File BuildType="BUILD" Toolchain="">.\Generated_Source\PSoC5\cyfitter_cfg.c</File>
           <File BuildType="BUILD" Toolchain="">.\Generated_Source\PSoC5\cymetadata.c</File>
@@ -147,47 +147,47 @@
           <File BuildType="BUILD" Toolchain="">.\Generated_Source\PSoC5\PWM_P_PM.c</File>
         </Files>
       </Folder>
-      <Folder BuildType="STRICT" Path="D:\robot\git_code\robot_raoxianpan_C\raoxianpan.cydsn\Export\ARM_GCC_Generic">
-        <Files Root="D:\robot\git_code\robot_raoxianpan_C\raoxianpan.cydsn">
+      <Folder BuildType="STRICT" Path="D:\pxc\robot_raoxianpan_C\raoxianpan.cydsn\Export\ARM_GCC_Generic">
+        <Files Root="D:\pxc\robot_raoxianpan_C\raoxianpan.cydsn">
           <File BuildType="BUILD" Toolchain="ARM GCC Generic">.\Export\ARM_GCC_Generic\CyComponentLibrary.a</File>
         </Files>
       </Folder>
-      <Folder BuildType="STRICT" Path="D:\robot\git_code\robot_raoxianpan_C\raoxianpan.cydsn\Export\ARM_MDK_Generic">
-        <Files Root="D:\robot\git_code\robot_raoxianpan_C\raoxianpan.cydsn">
+      <Folder BuildType="STRICT" Path="D:\pxc\robot_raoxianpan_C\raoxianpan.cydsn\Export\ARM_MDK_Generic">
+        <Files Root="D:\pxc\robot_raoxianpan_C\raoxianpan.cydsn">
           <File BuildType="BUILD" Toolchain="ARM MDK Generic">.\Export\ARM_MDK_Generic\CyComponentLibrary.a</File>
         </Files>
       </Folder>
-      <Folder BuildType="STRICT" Path="D:\robot\git_code\robot_raoxianpan_C\raoxianpan.cydsn\Export\ARM_IAR_Generic">
-        <Files Root="D:\robot\git_code\robot_raoxianpan_C\raoxianpan.cydsn">
+      <Folder BuildType="STRICT" Path="D:\pxc\robot_raoxianpan_C\raoxianpan.cydsn\Export\ARM_IAR_Generic">
+        <Files Root="D:\pxc\robot_raoxianpan_C\raoxianpan.cydsn">
           <File BuildType="BUILD" Toolchain="ARM IAR Generic">.\Export\ARM_IAR_Generic\CyComponentLibrary.a</File>
         </Files>
       </Folder>
       <Folder BuildType="EXCLUDE" Path=".\codegentemp">
-        <Files Root="D:\robot\git_code\robot_raoxianpan_C\raoxianpan.cydsn" />
+        <Files Root="D:\pxc\robot_raoxianpan_C\raoxianpan.cydsn" />
       </Folder>
       <Folder BuildType="EXCLUDE" Path=".\ARM_GCC_441">
-        <Files Root="D:\robot\git_code\robot_raoxianpan_C\raoxianpan.cydsn" />
+        <Files Root="D:\pxc\robot_raoxianpan_C\raoxianpan.cydsn" />
       </Folder>
       <Folder BuildType="EXCLUDE" Path=".\ARM_GCC_473">
-        <Files Root="D:\robot\git_code\robot_raoxianpan_C\raoxianpan.cydsn" />
+        <Files Root="D:\pxc\robot_raoxianpan_C\raoxianpan.cydsn" />
       </Folder>
       <Folder BuildType="EXCLUDE" Path=".\DP8051_Keil_952">
-        <Files Root="D:\robot\git_code\robot_raoxianpan_C\raoxianpan.cydsn" />
+        <Files Root="D:\pxc\robot_raoxianpan_C\raoxianpan.cydsn" />
       </Folder>
       <Folder BuildType="EXCLUDE" Path=".\DP8051">
-        <Files Root="D:\robot\git_code\robot_raoxianpan_C\raoxianpan.cydsn" />
+        <Files Root="D:\pxc\robot_raoxianpan_C\raoxianpan.cydsn" />
       </Folder>
       <Folder BuildType="EXCLUDE" Path=".\CortexM0">
-        <Files Root="D:\robot\git_code\robot_raoxianpan_C\raoxianpan.cydsn" />
+        <Files Root="D:\pxc\robot_raoxianpan_C\raoxianpan.cydsn" />
       </Folder>
       <Folder BuildType="EXCLUDE" Path=".\CortexM3">
-        <Files Root="D:\robot\git_code\robot_raoxianpan_C\raoxianpan.cydsn" />
+        <Files Root="D:\pxc\robot_raoxianpan_C\raoxianpan.cydsn" />
       </Folder>
       <Folder BuildType="EXCLUDE" Path=".\Generated_Source\PSoC3">
-        <Files Root="D:\robot\git_code\robot_raoxianpan_C\raoxianpan.cydsn" />
+        <Files Root="D:\pxc\robot_raoxianpan_C\raoxianpan.cydsn" />
       </Folder>
       <Folder BuildType="EXCLUDE" Path=".\Generated_Source\PSoC4">
-        <Files Root="D:\robot\git_code\robot_raoxianpan_C\raoxianpan.cydsn" />
+        <Files Root="D:\pxc\robot_raoxianpan_C\raoxianpan.cydsn" />
       </Folder>
     </Folders>
   </Project>

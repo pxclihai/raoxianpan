@@ -16,7 +16,7 @@ void WireReel_init()
 {
     g_WireReel.run_state = 1;
 }
-void g_WireReel_Hearting_Loop()
+void WireReel_Hearting_Loop()
 {
     if(g_WireReel.hearting == 1  )
     {

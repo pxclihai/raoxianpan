@@ -39,6 +39,7 @@ int main()
     isr_rx_net_Start();
     
     PWM_1_Start();
+    PWM_P_Start();
     ENA_Write(1);
     CyDelay(5);
     PWM_1_Stop();
@@ -48,7 +49,7 @@ int main()
     g_Car.pull_min = 860;
     PWM_1_WritePeriod(4000);
     
-    hearting_error = 1;
+    g_WireReel.error = 1;
     
     WireReel_init();
     Monitor_Battery_Init();
@@ -62,6 +63,19 @@ int main()
     
     timer_init (&WireReel_control_timer, WireReel_control_Loop, 0, 5);
     timer_start(&WireReel_control_timer);
+    
+//    ENA_P_Write(0);
+//    CyDelay(1);
+//    DIR_P_Write(0);
+//    CyDelay(1);
+//    PWM_P_Start();
+//    while(1);
+     ENA_Write(1);
+     CyDelayUs(20);
+     DIR_Write(0);
+     CyDelayUs(1000);
+     PWM_1_Start();
+    while(1);
     for(;;)
     {
       /* Place your application code here. */
@@ -69,8 +83,7 @@ int main()
         
         if(time_5ms_state ==  1)
         {
-           
-            
+          
             time_5ms_state = 0;
         }
         timer_loop();

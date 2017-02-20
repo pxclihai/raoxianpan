@@ -54,6 +54,7 @@ typedef struct
 }S_WIREREEL;
 S_WIREREEL g_WireReel;
 void WireReel_init();
+void WireReel_Hearting_Loop();
 void WireReel_control_Loop();
 #endif
 /* [] END OF FILE */
